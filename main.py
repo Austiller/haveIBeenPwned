@@ -111,7 +111,7 @@ def pretty_print(client:Client):
 def main():
     
     accounts = input("paste a comma seperated lists of emails to check:").split(",")
-    client = Client(api_key="01c5af59d0dc40689974ed0a2c6c233d",accounts=accounts)
+    client = Client(api_key="[API KEY HERE]",accounts=accounts)
 
     get_account_breaches_and_pastes(client=client)
     pretty_print(client)
